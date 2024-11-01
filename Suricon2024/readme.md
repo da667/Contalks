@@ -1,6 +1,6 @@
 readme.md
 
-#Suricon 2024
+# Suricon 2024
 
 Greetings! This directory contains a host of materials I either used or discussed during my Suricon 2024 talk:
 
