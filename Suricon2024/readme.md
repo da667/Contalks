@@ -8,6 +8,8 @@ Greetings! This directory contains a host of materials I either used or discusse
  - `siderator.py`
  - Cyberchef recipe for generating XOR rainbow table rules, based on system artifacts
  - links.md
+ - disable.conf
+ - enable.conf
  
 ## Informational_and_Honeytoken_Rules.pptx
 
@@ -25,6 +27,15 @@ Greetings! This directory contains a host of materials I either used or discusse
   - `-s` for starting sid number. This is for users who have a local.rules file and need to pick a different sid number to start from. By default, the starting sid value is `1000000`.
  - The newly generated `local.rules` file will likely need to be moved to the rules directory for your suricata instance, or otherwise imported into whatever tooling you use for managing your suricata rules. If you have an existing `local.rules` file, consider appending the rules you've generated to the existing `local.rules` file. Additionally, make sure that the `suricata.yaml` config file is configured to utilize the newly generated `local.rules` file this script generates. Doesn't do you any good if suricata doesn't know where to find the new rules!
  
- ## links.md
+## links.md
  
  - I cited a bunch of websites in the creation of my slide deck. Rather than make you dig out the links on your own, here is a markdown file containing all of the links in my slide deck by category
+ 
+## disable.conf
+
+ - this is a _very_ simple `disable.conf` file for `suricata-update`. This config file will disable **all** ET INFO rules.
+ 
+## enable.conf
+
+ - this is an `enable.conf` file for `suricata-update`. This config file enables a specific subset of ET INTO rules.
+ 
