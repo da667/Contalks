@@ -39,6 +39,7 @@
       <outline text="0ffset Training Solutions" title="0ffset Training Solutions" type="rss" xmlUrl="https://www.0ffset.net/feed/" htmlUrl="https://www.0ffset.net/"/>
     </outline>
     <outline text="Security Company Research" title="Security Company Research">
+      <outline text="CTI Grapevine" title="CTI Grapevine" type="rss" xmlUrl="https://dti.domaintools.com/feed/" htmlUrl="https://dti.domaintools.com/home/"/>
       <outline text="PhishDestroy Alert" title="PhishDestroy Alert" type="rss" xmlUrl="https://mastodon.social/@phishdestroy.rss" htmlUrl="https://mastodon.social/@phishdestroy"/>
       <outline text="OTX Bot" title="OTX Bot" type="rss" xmlUrl="https://social.raytec.co/@techbot.rss" htmlUrl="https://social.raytec.co/@techbot"/>
       <outline text="Simply Security News, Views and Opinions from Trend Micro, Inc" title="Simply Security News, Views and Opinions from Trend Micro, Inc" type="rss" xmlUrl="http://feeds.trendmicro.com/TrendMicroSimplySecurity" htmlUrl="http://blog.trendmicro.com/"/>
